@@ -1,3 +1,15 @@
+widget: experience
+
+headless: true
+
+weight: 40
+
+title: Experience
+subtitle:
+
+date_format: Jan 2006
+show_more: true
+
 experience:
   - title: Virtual Chief Information Security Officer (vCISO)
     company: Dot Security
