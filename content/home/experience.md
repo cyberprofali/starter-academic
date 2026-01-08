@@ -1,3 +1,4 @@
+---
 widget: experience
 
 headless: true
@@ -109,4 +110,4 @@ experience:
     date_end: '2018-08-01'
     description: |
       Published research on general relativistic invariants related to black holes, wormholes, and the Alcubierre metric. Applied analytical mathematics and computational methods using C++, Python, FORTRAN, and R.
-
+---
