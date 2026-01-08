@@ -10,6 +10,7 @@ subtitle:
 
 date_format: Jan 2006
 show_more: true
+show_more_items: 4
 
 experience:
   - title: Virtual Chief Information Security Officer (vCISO)
