@@ -6,12 +6,12 @@ title: Md Ali
 superuser: true
 
 # Role/position/tagline
-role: Cybersecurity Consultant
+role: vCISO
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Burwood Group, Inc.
-  url: https://www.burwood.com
+- name: Dot Security
+  url: https://dotsecurity.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -47,13 +47,13 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'md.ali@burwood.com'
+  link: 'aliev.mordecai@gmail.com'
 - icon: researchgate  # Alternatively, use `researchgate` icon from `ai` icon pack
   icon_pack: ai
   link: https://www.researchgate.net/profile/Md_Ali222
 - icon: github
   icon_pack: fab
-  link: https://github.com/xXxSpicyBoiiixXx
+  link: https://github.com/cyberprofali
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/md-aliev/
@@ -71,14 +71,14 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
-I am a Cybersecurity Consultant at Burwood Group Inc., specializing in penetration testing and Governance, Risk, and Compliance (GRC) across industries such as healthcare, education, and finance. With extensive experience conducting security risk assessments, vulnerability analysis, and compliance audits, I help organizations strengthen their security postures while ensuring regulatory adherence.
+I am a Virtual Chief Information Security Officer (vCISO) focused on helping organizations design, mature, and sustain cybersecurity programs aligned with business risk, regulatory requirements, and real-world threat landscapes. My work spans cybersecurity strategy, governance, risk management, and executive advisory across industries including healthcare, education, and finance.
 
-Beyond consulting, I am an educator and mentor committed to shaping the next generation of cybersecurity professionals. As a Cybersecurity Faculty & Program Coordinator at Olive-Harvey College, I design and lead hands-on, industry-aligned training programs that equip students with practical skills for real-world security challenges. Additionally, I serve as an instructor at ThriveDX and have held adjunct professor roles at Illinois Institute of Technology and Saint Louis University, teaching topics from ethical hacking to digital forensics.
+I bring a strong technical foundation informed by an offensive security background, allowing me to translate adversary behavior into practical, defensible security controls. Through risk assessments, security evaluations, and program development, I help organizations strengthen their security posture while moving beyond checklist compliance toward measurable, sustainable outcomes.
 
-My academic background includes a PhD in Computer Science from Capitol Technology University, dual Master’s degrees in Computer Science and Applied Cybersecurity & Digital Forensics from the Illinois Institute of Technology, as well as Bachelor’s degrees in Physics and Applied Mathematics from Texas State University.
+In addition to executive security leadership, I am actively involved in cybersecurity education and workforce development. I serve as Cybersecurity Faculty and Program Coordinator at Olive-Harvey College, where I design and lead hands-on, industry-aligned training programs focused on applied security skills. I have also served as an instructor and adjunct faculty member at institutions including ThriveDX, Illinois Institute of Technology, and Saint Louis University, teaching topics ranging from ethical hacking to digital forensics.
 
-Outside of cybersecurity, I am a passionate language learner and musician. Fluent in English, Russian, and Bengali, with working proficiency in Tagalog and ongoing studies in Chinese, I thrive on continuous learning. Music has been a lifelong passion, with expertise in violin, bass guitar, and piano.
+My academic background includes a Ph.D. in Computer Science, with research focused on the intersection of Artificial Intelligence and Cybersecurity, including AI-driven threat detection, adversarial machine learning, and security automation. I also hold dual Master’s degrees in Computer Science and Applied Cybersecurity & Digital Forensics, along with undergraduate degrees in Physics and Applied Mathematics.
 
-With a blend of technical expertise, academic leadership, and hands-on experience, I bring a strategic and well-rounded perspective to cybersecurity, AI research, and education.
+With a blend of executive security leadership, deep technical grounding, and academic rigor, I bring a strategic and well-rounded perspective to cybersecurity program development, risk management, and security innovation.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resume{{< /staticref >}}.

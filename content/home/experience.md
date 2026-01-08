@@ -42,7 +42,7 @@ experience:
     company_url: https://www.burwood.com
     location: Chicago, Illinois
     date_start: '2022-08-08'
-    date_end: ''
+    date_end: '2025-12-23'
     description: As a dedicated Cybersecurity Consultant specializing in penetration testing, I serve a diverse client base across healthcare, education, and finance sectors. My expertise centers on conducting detailed penetration tests across servers, machines, and various devices, including external, internal, and web applications. This proactive approach helps uncover vulnerabilities, ensuring robust security solutions are in place. In addition to my pen-testing focus, I guide organizations in adhering to GRC policies, crafting standards and frameworks based on NIST, HIPAA, and PCI to safeguard privacy and security. I oversee annual Security Risk Assessments (SRAs) to mitigate potential risks and maintain the highest level of protection. My role involves consulting on, operating, and integrating cybersecurity measures, ensuring the safety and security of our clients' domains, thus allowing them to focus on their core business with peace of mind.
   - title: Cybersecurity Instructor
     company: ThriveDX
