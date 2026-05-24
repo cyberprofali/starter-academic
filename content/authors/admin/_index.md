@@ -10,7 +10,7 @@ role: vCISO
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Dot Security
+- name: DOT Security
   url: https://dotsecurity.com/
 
 # Short bio (displayed in user profile at end of posts)
