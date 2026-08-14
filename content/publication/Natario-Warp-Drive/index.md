@@ -24,7 +24,7 @@ authors:
 #- "Equal contribution"
 
 date: "2020-08-06T00:00:00Z"
-doi: "https://doi.org/10.3390/particles3030042"
+doi: "10.3390/particles3030042"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-09-16T00:00:00Z"
@@ -54,7 +54,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://www.alihmd.com/publication/Natario-Warp-Drive/particles-03-00042.pdf'
+url_pdf: '/publication/natario-warp-drive/particles-03-00042.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
