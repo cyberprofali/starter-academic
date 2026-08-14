@@ -21,7 +21,7 @@ The roadmap does not authorize automatic merging, deployment, changes to persona
 
 Match the deployed toolchain whenever possible:
 
-1. Install Go and Hugo 0.79.1.
+1. Install Go and Hugo Extended 0.79.1.
 2. Download module dependencies with `go mod download`.
 3. Preview with `hugo server --disableFastRender --i18n-warnings`.
 4. Before submitting, run `hugo --gc --minify`.
