@@ -13,7 +13,7 @@ This is a legacy Wowchemy project pinned to Hugo 0.79.1. Keep framework upgrades
 
 ## Run locally
 
-Install Go and Hugo 0.79.1, then run:
+Install Go and Hugo Extended 0.79.1, then run:
 
 ```bash
 go mod download
