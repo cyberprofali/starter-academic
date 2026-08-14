@@ -2,6 +2,12 @@
 
 This repository is the source for Md Ali's professional website at https://alihmd.com. It is a Hugo site built with the legacy Wowchemy Academic theme. Keep changes focused, readable, and easy to review.
 
+## Improvement direction
+
+Use `ROADMAP.md` as the ordered improvement backlog. When a request is broad, select the first unchecked item that can be completed safely in one focused pull request.
+
+The roadmap does not authorize automatic merging, deployment, changes to personal facts, credentials, or a framework migration. Stop for owner review whenever one of those decisions is involved.
+
 ## Project structure
 
 - `content/authors/admin/_index.md` contains the primary biography, credentials, interests, and profile links.
