@@ -10,7 +10,7 @@ Keep [alihmd.com](https://alihmd.com) accurate, professional, accessible, fast, 
 - [x] Replace the upstream starter README with project documentation.
 - [x] Add a pull-request template.
 - [ ] Add a reproducible build check that uses the site's pinned Hugo version.
-- [ ] Audit and remove starter content, editor artifacts, and unused files without deleting personal material.
+- [x] Audit and remove starter content, editor artifacts, and unused files without deleting personal material.
 - [ ] Check biography, navigation, contact methods, projects, publications, and resume links for accuracy.
 - [ ] Establish a visual baseline with desktop and mobile screenshots.
 - [ ] Improve accessibility, mobile layout, metadata, and performance based on the baseline.
