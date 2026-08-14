@@ -1,32 +1,61 @@
-<p align="center"><a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="https://wowchemy.com/img/logo_200px.png" alt="Wowchemy Website Builder"></a></p>
+# Md Ali's Professional Website
 
-# Academic Template for [Hugo](https://github.com/gohugoio/hugo)
+Source code for [alihmd.com](https://alihmd.com), the professional and academic website of Md Ali, Ph.D. The site presents cybersecurity leadership experience, research, teaching, projects, publications, and professional credentials.
 
-The Hugo **Academic Resumé Template** empowers you to create your job-winning online resumé and showcase your academic publications.
+## Technology
 
-[Check out the latest demo](https://academic-demo.netlify.app) of what you'll get in less than 10 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
+- [Hugo](https://gohugo.io/) static site generator
+- Wowchemy Academic theme
+- Go modules for theme dependencies
+- Netlify for builds and deployment
 
-[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs.
+This is a legacy Wowchemy project pinned to Hugo 0.79.1. Keep framework upgrades separate from content changes so they can be tested and rolled back cleanly.
 
-- 👉 [**Get Started**](https://wowchemy.com/docs/install/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://wowchemy.com/updates/)
+## Run locally
 
-## Crowd-funded open-source software
+Install Go and Hugo 0.79.1, then run:
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+```bash
+go mod download
+hugo server --disableFastRender --i18n-warnings
+```
 
-### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/plans/)
+Open the local address printed by Hugo. The repository also provides `./view.sh` for the preview command on macOS or Linux.
 
-## Ecosystem
+To check the production build:
 
-* **[Wowchemy Admin](https://github.com/wowchemy/wowchemy-admin/):** An admin tool to import publications from BibTeX
+```bash
+hugo --gc --minify
+```
 
-[![Screenshot](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png)](https://wowchemy.com)
+Netlify uses the production command and Hugo version defined in `netlify.toml`.
 
-<!--
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
--->
+## Where to make changes
+
+| Area | Location |
+| --- | --- |
+| Biography and profile links | `content/authors/admin/_index.md` |
+| Home-page sections | `content/home/` |
+| Projects | `content/project/` |
+| Publications | `content/publication/` |
+| Events and talks | `content/event/` |
+| Navigation and site settings | `config/_default/` |
+| Static files and media | `static/`, `assets/`, `images/` |
+
+Do not commit generated output from `public/` or `resources/`.
+
+## Working with Codex
+
+Repository-level instructions live in `AGENTS.md`. Codex reads that file before working in this project, including its build expectations and code-review priorities.
+
+For each change:
+
+1. Create a focused branch.
+2. Ask Codex to implement or review the change.
+3. Open a pull request into `master`.
+4. Confirm the Netlify preview/build and review feedback.
+5. Merge only after the result looks correct.
+
+## License
+
+See `LICENSE.md`.
