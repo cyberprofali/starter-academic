@@ -46,7 +46,7 @@ Do not commit generated output from `public/` or `resources/`.
 
 ## Working with Codex
 
-Repository-level instructions live in `AGENTS.md`. Codex reads that file before working in this project, including its build expectations and code-review priorities.
+Repository-level instructions live in `AGENTS.md`. Codex reads that file before working in this project, including its build expectations and code-review priorities. Ordered improvement priorities live in [`ROADMAP.md`](ROADMAP.md).
 
 For each change:
 
