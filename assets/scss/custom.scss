@@ -213,3 +213,520 @@ button:focus-visible {
     transition: none;
   }
 }
+
+// Deep cyber-theme layer.
+
+$hack-black: #03080c;
+$hack-ink: #061018;
+$hack-panel: #091720;
+$hack-panel-alt: #0c202a;
+$hack-green: #4df2a7;
+$hack-teal: #20d6c2;
+$hack-cyan: #67e8f9;
+$hack-text: #e5fbf7;
+$hack-muted: #9bb9b5;
+$hack-line: rgba(103, 232, 249, 0.2);
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: $hack-black;
+  color: $hack-text;
+}
+
+::selection {
+  background: rgba(77, 242, 167, 0.28);
+  color: #fff;
+}
+
+.home-section.wg-hero {
+  padding-top: 6.75rem;
+  padding-bottom: 6.75rem;
+  background-color: $hack-ink;
+}
+
+.home-section.wg-hero::before {
+  background-image:
+    linear-gradient(rgba(103, 232, 249, 0.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(103, 232, 249, 0.09) 1px, transparent 1px),
+    repeating-linear-gradient(0deg, rgba(77, 242, 167, 0.025) 0, rgba(77, 242, 167, 0.025) 1px, transparent 1px, transparent 4px);
+  background-size: 40px 40px, 40px 40px, 100% 4px;
+}
+
+.home-section.wg-hero::after {
+  top: -15rem;
+  right: -11rem;
+  width: 38rem;
+  height: 38rem;
+  border-color: rgba(103, 232, 249, 0.28);
+  box-shadow:
+    0 0 0 4rem rgba(32, 214, 194, 0.05),
+    0 0 0 9rem rgba(77, 242, 167, 0.025),
+    0 0 7rem rgba(103, 232, 249, 0.12);
+}
+
+.wg-hero .hero-title {
+  max-width: 980px;
+  font-size: clamp(2.65rem, 5vw, 4.75rem);
+  text-shadow: 0 0 2.25rem rgba(103, 232, 249, 0.16);
+}
+
+.wg-hero .hero-title::before {
+  display: block;
+  margin-bottom: 1.25rem;
+  color: $hack-green;
+  content: "[ SECURE CHANNEL // ONLINE ]";
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  line-height: 1.4;
+}
+
+.wg-hero .hero-lead {
+  max-width: 880px;
+  color: rgba(229, 251, 247, 0.9);
+  font-size: 1.26rem;
+  line-height: 1.7;
+}
+
+.wg-hero .btn {
+  border-radius: 0.15rem;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 0.95rem;
+  letter-spacing: 0.015em;
+}
+
+.wg-hero .btn-light {
+  border-color: $hack-green;
+  background-color: $hack-green;
+  box-shadow: 0 0 2rem rgba(77, 242, 167, 0.13);
+  color: $hack-black !important;
+}
+
+.wg-hero .btn-light:hover,
+.wg-hero .btn-light:focus {
+  border-color: $hack-cyan;
+  background-color: $hack-cyan;
+  box-shadow: 0 0 2.5rem rgba(103, 232, 249, 0.22);
+  color: $hack-black !important;
+  transform: translateY(-2px);
+}
+
+.wg-hero .hero-cta-alt {
+  color: $hack-cyan !important;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+}
+
+.wg-hero .hero-note {
+  color: rgba(103, 232, 249, 0.72) !important;
+  font-size: 0.76rem;
+}
+
+.home-section:not(.wg-hero) {
+  position: relative;
+  background-color: $hack-black !important;
+  color: $hack-text;
+}
+
+#about,
+#experience,
+#awards {
+  background-color: #07131b !important;
+}
+
+#impact,
+#operating-model,
+#publications,
+#contact {
+  background-color: #040b10 !important;
+}
+
+.home-section:not(.wg-hero) .section-heading h1,
+.home-section:not(.wg-hero) h2,
+.home-section:not(.wg-hero) h3,
+.home-section:not(.wg-hero) h4,
+.home-section:not(.wg-hero) strong {
+  color: $hack-text;
+}
+
+.home-section:not(.wg-hero) p,
+.home-section:not(.wg-hero) li,
+.home-section:not(.wg-hero) .article-metadata,
+.home-section:not(.wg-hero) .text-muted {
+  color: $hack-muted !important;
+}
+
+.home-section:not(.wg-hero) a {
+  color: $hack-cyan;
+}
+
+.home-section:not(.wg-hero) a:hover {
+  color: $hack-green;
+}
+
+.home-section .section-heading h1 {
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: clamp(1.75rem, 3vw, 2.35rem);
+}
+
+.home-section:not(.wg-hero) .section-heading h1::before {
+  display: block;
+  margin-bottom: 0.65rem;
+  color: $hack-green;
+  content: "// access_node";
+  font-size: 0.72rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+#about .section-heading h1::before { content: "// identity"; }
+#impact .section-heading h1::before { content: "// capabilities"; }
+#operating-model .section-heading h1::before { content: "// execution_protocol"; }
+#experience .section-heading h1::before { content: "// track_record"; }
+#publications .section-heading h1::before { content: "// research_archive"; }
+#awards .section-heading h1::before { content: "// recognition"; }
+#contact .section-heading h1::before { content: "// establish_link"; }
+
+.home-section .section-heading h1::after {
+  width: 4.5rem;
+  background: linear-gradient(90deg, $hack-green, $hack-cyan, transparent);
+}
+
+.home-section .section-heading p {
+  color: $hack-muted !important;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+}
+
+.navbar {
+  border-bottom-color: rgba(103, 232, 249, 0.2);
+  background-color: rgba(3, 8, 12, 0.97) !important;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.32);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+.navbar-light .navbar-brand {
+  color: $hack-text;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(229, 251, 247, 0.76);
+}
+
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .active > .nav-link {
+  color: $hack-green;
+}
+
+#about .portrait-title h2 {
+  color: $hack-text;
+}
+
+#about .portrait-title h3,
+#about .portrait-title h3 a {
+  color: $hack-muted;
+}
+
+#about .network-icon a {
+  color: $hack-cyan;
+}
+
+.impact-card {
+  border: 1px solid $hack-line;
+  border-top: 3px solid $hack-teal;
+  border-radius: 0.2rem;
+  background: linear-gradient(145deg, rgba(12, 32, 42, 0.96), rgba(5, 16, 24, 0.96));
+  box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.24);
+}
+
+.impact-card::before {
+  background: linear-gradient(135deg, transparent 49%, rgba(77, 242, 167, 0.14) 50%);
+}
+
+.impact-card h3 {
+  color: $hack-text !important;
+}
+
+.impact-card h3::before {
+  color: $hack-green;
+}
+
+.impact-card p,
+.impact-proof {
+  color: $hack-muted !important;
+}
+
+.capability-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.75rem auto 1.25rem;
+  gap: 0.65rem;
+}
+
+.capability-strip span {
+  padding: 0.45rem 0.7rem;
+  border: 1px solid rgba(103, 232, 249, 0.26);
+  background: rgba(103, 232, 249, 0.045);
+  color: $hack-cyan;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+.security-terminal {
+  max-width: 1080px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 1px solid rgba(77, 242, 167, 0.32);
+  border-radius: 0.25rem;
+  background:
+    linear-gradient(rgba(77, 242, 167, 0.025) 1px, transparent 1px),
+    $hack-black;
+  background-size: 100% 4px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.38);
+}
+
+.terminal-bar {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem 0.9rem;
+  border-bottom: 1px solid rgba(103, 232, 249, 0.16);
+  background: $hack-panel;
+  gap: 0.45rem;
+}
+
+.terminal-bar code {
+  margin-left: 0.55rem;
+  color: $hack-muted;
+  font-size: 0.75rem;
+}
+
+.terminal-dot {
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+  background: #ff657a;
+}
+
+.terminal-dot:nth-child(2) { background: #f6c95f; }
+.terminal-dot:nth-child(3) { background: $hack-green; }
+
+.terminal-body {
+  padding: 1.5rem;
+}
+
+.terminal-command {
+  margin-bottom: 1.6rem !important;
+  color: $hack-text !important;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 0.9rem;
+}
+
+.terminal-command span {
+  margin-right: 0.55rem;
+  color: $hack-green;
+}
+
+.security-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  border: 1px solid rgba(103, 232, 249, 0.13);
+  background: rgba(103, 232, 249, 0.13);
+}
+
+.security-module {
+  min-height: 220px;
+  padding: 1.5rem;
+  background: $hack-panel;
+}
+
+.security-module:hover {
+  background: $hack-panel-alt;
+}
+
+.module-id {
+  margin-bottom: 0.75rem;
+  color: $hack-green;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.security-module h3 {
+  color: $hack-text !important;
+  font-size: 1.15rem;
+}
+
+.security-module p {
+  color: $hack-muted !important;
+  line-height: 1.7;
+}
+
+.terminal-status {
+  margin: 1.4rem 0 0 !important;
+  color: $hack-green !important;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 0.76rem;
+}
+
+#experience .card {
+  border: 1px solid rgba(103, 232, 249, 0.16);
+  border-left: 3px solid $hack-teal;
+  border-radius: 0.2rem;
+  background: linear-gradient(135deg, rgba(12, 32, 42, 0.96), rgba(7, 19, 27, 0.96));
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  color: $hack-text;
+}
+
+#experience .exp-title {
+  color: $hack-text !important;
+  font-weight: 700;
+}
+
+#experience .exp-company a {
+  color: $hack-cyan;
+}
+
+#experience .card-text {
+  color: $hack-muted;
+}
+
+#publications .view-list-item {
+  margin-bottom: 0.75rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(103, 232, 249, 0.13);
+  border-left: 3px solid rgba(77, 242, 167, 0.68);
+  background: rgba(9, 23, 32, 0.82);
+}
+
+#publications .pub-icon {
+  color: $hack-green;
+}
+
+#awards .card,
+#awards .card-body {
+  border-color: rgba(103, 232, 249, 0.16);
+  background: $hack-panel;
+  color: $hack-text;
+}
+
+#contact .form-control {
+  border: 1px solid rgba(103, 232, 249, 0.24);
+  border-radius: 0.15rem;
+  background: #07131b;
+  color: $hack-text;
+}
+
+#contact .form-control:focus {
+  border-color: $hack-green;
+  box-shadow: 0 0 0 0.2rem rgba(77, 242, 167, 0.12);
+}
+
+#contact .btn-outline-primary {
+  border-color: $hack-green;
+  border-radius: 0.15rem;
+  color: $hack-green;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+}
+
+#contact .btn-outline-primary:hover {
+  background: $hack-green;
+  color: $hack-black;
+}
+
+.site-footer {
+  border-top: 1px solid rgba(103, 232, 249, 0.15);
+  background: $hack-black;
+}
+
+.site-footer .powered-by {
+  color: $hack-muted;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 0.74rem;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid $hack-cyan;
+  outline-offset: 3px;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    padding: 0.75rem 0 1rem;
+    background: $hack-black;
+  }
+
+  .security-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .security-module {
+    min-height: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .home-section.wg-hero {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .home-section.wg-hero::after {
+    right: -20rem;
+  }
+
+  .wg-hero .hero-title {
+    font-size: 2.55rem;
+  }
+
+  .wg-hero .hero-title::before {
+    font-size: 0.68rem;
+  }
+
+  .wg-hero .hero-lead {
+    font-size: 1.08rem;
+  }
+
+  .capability-strip {
+    justify-content: flex-start;
+  }
+
+  .terminal-body {
+    padding: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+
+/* Legacy component collision fixes. */
+.terminal-bar code {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  color: $hack-muted;
+}
+
+@media (min-width: 992px) {
+  .navbar .navbar-nav .nav-link {
+    padding-right: 0.6rem !important;
+    padding-left: 0.6rem !important;
+    font-size: 0.84rem;
+  }
+}

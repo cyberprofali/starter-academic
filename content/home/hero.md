@@ -4,25 +4,25 @@ headless = true
 active = true
 weight = 10
 
-title = "Cybersecurity leadership for complex, high-stakes environments"
+title = "Cybersecurity leadership with an adversary's mindset"
 
 [design.background]
-  gradient_start = "#0b1f33"
-  gradient_end = "#1f5f70"
+  gradient_start = "#02090f"
+  gradient_end = "#063846"
   text_color_light = true
 
 [cta]
-  url = "#experience"
-  label = "View Executive Experience"
+  url = "#operating-model"
+  label = "Explore the Security System"
   icon_pack = "fas"
-  icon = "briefcase"
+  icon = "terminal"
 
 [cta_alt]
   url = "media/resume.pdf"
   label = "Download Résumé"
 
 [cta_note]
-  label = "vCISO · Cybersecurity Strategy · Offensive Security · AI Security Research · Higher-Education Leadership"
+  label = "STATUS: ACTIVE · vCISO · OFFENSIVE SECURITY · AI SECURITY · PROGRAM LEADERSHIP"
 +++
 
-I connect executive decision-making with hands-on security, research, and education—helping organizations turn cyber risk into defensible, business-aligned action.
+I operate where executive risk decisions meet the attack surface—combining vCISO strategy, offensive-security experience, AI-security research, and hands-on education to turn uncertainty into prioritized, defensible action.

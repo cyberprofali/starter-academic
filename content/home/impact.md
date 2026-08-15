@@ -5,7 +5,7 @@ active: true
 weight: 30
 
 title: Executive Value
-subtitle: Strategy, technical depth, and institution-building
+subtitle: Executive judgment backed by technical depth
 
 design:
   columns: '1'
@@ -15,21 +15,32 @@ design:
   <div class="col-md-4">
     <div class="impact-card">
       <h3>Business-aligned security leadership</h3>
-      <p>Shape cybersecurity strategy, governance, enterprise risk management, incident readiness, and executive advisory around organizational priorities and real-world threat models.</p>
+      <p>Connect cybersecurity strategy, governance, enterprise risk, and incident readiness to the decisions leaders must make. The goal is a security program that is defensible, prioritized, and practical to operate.</p>
     </div>
   </div>
   <div class="col-md-4">
     <div class="impact-card">
       <h3>Adversary-informed assurance</h3>
-      <p>Bring experience across external, internal, and web application penetration testing, vulnerability analysis, and risk assessments aligned with NIST, HIPAA, and PCI expectations.</p>
+      <p>Apply experience across external, internal, and web application penetration testing, vulnerability analysis, and risk assessments to challenge assumptions and surface the paths that matter most.</p>
     </div>
   </div>
   <div class="col-md-4">
     <div class="impact-card">
       <h3>Research and talent multiplier</h3>
-      <p>Combine Ph.D.-level AI and cybersecurity research, national-laboratory computing experience, and hands-on program leadership that prepares the next generation of security professionals.</p>
+      <p>Combine Ph.D.-level AI and cybersecurity research, national-laboratory computing experience, and applied program leadership to strengthen both technical capability and the people behind it.</p>
     </div>
   </div>
 </div>
 
-<p class="impact-proof"><strong>Range that compounds:</strong> executive cybersecurity leadership, offensive security, GRC, AI security, high-performance computing, curriculum design, and peer-reviewed research.</p>
+<div class="capability-strip" aria-label="Cybersecurity capability areas">
+  <span>vCISO Advisory</span>
+  <span>Security Strategy</span>
+  <span>Enterprise Risk</span>
+  <span>Penetration Testing</span>
+  <span>GRC</span>
+  <span>AI Security</span>
+  <span>Incident Readiness</span>
+  <span>Cybersecurity Education</span>
+</div>
+
+<p class="impact-proof"><strong>Range that compounds:</strong> boardroom communication, offensive-security depth, governance discipline, applied research, high-performance computing, and the ability to build security capability in others.</p>

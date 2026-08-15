@@ -16,6 +16,11 @@
   weight = 30
 
 [[main]]
+  name = "Security System"
+  url = "#operating-model"
+  weight = 35
+
+[[main]]
   name = "Experience"
   url = "#experience"
   weight = 40
