@@ -848,3 +848,75 @@ textarea:focus-visible {
     text-align: left;
   }
 }
+
+
+/* Hero profile links and single-photo identity layout. */
+#about #profile > img.avatar {
+  display: none;
+}
+
+.hero-portrait-role {
+  color: $hack-muted;
+  font-size: 0.68rem;
+  letter-spacing: 0.025em;
+}
+
+.hero-profile-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 0.8rem;
+  gap: 0.4rem;
+}
+
+.hero-profile-links a {
+  display: flex;
+  align-items: center;
+  min-height: 2.1rem;
+  padding: 0.38rem 0.48rem;
+  border: 1px solid rgba(103, 232, 249, 0.24);
+  background: rgba(103, 232, 249, 0.045);
+  color: $hack-cyan !important;
+  font-size: 0.63rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.025em;
+  text-decoration: none;
+  gap: 0.38rem;
+  transition:
+    background-color 150ms ease,
+    border-color 150ms ease,
+    color 150ms ease,
+    transform 150ms ease;
+}
+
+.hero-profile-links a:hover,
+.hero-profile-links a:focus {
+  border-color: $hack-green;
+  background: $hack-green;
+  color: $hack-black !important;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.hero-profile-links i {
+  width: 0.9rem;
+  flex: 0 0 0.9rem;
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+  .hero-profile-links {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-profile-links a {
+    transition: none;
+  }
+}
+
+
+#about h1 {
+  color: $hack-text !important;
+}
