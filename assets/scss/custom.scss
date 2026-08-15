@@ -77,14 +77,14 @@ $cyber-cyan: #62e6ff;
   box-shadow:
     0 0 0 1px rgba(98, 230, 255, 0.2),
     0 0.75rem 2rem rgba(0, 0, 0, 0.18);
-  color: $cyber-ink;
+  color: $cyber-ink !important;
 }
 
 .wg-hero .btn-light:hover,
 .wg-hero .btn-light:focus {
   border-color: $cyber-cyan;
   background-color: $cyber-cyan;
-  color: $cyber-ink;
+  color: $cyber-ink !important;
   transform: translateY(-1px);
 }
 
