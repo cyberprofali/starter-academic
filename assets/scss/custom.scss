@@ -730,3 +730,120 @@ textarea:focus-visible {
     font-size: 0.84rem;
   }
 }
+
+
+/* Experience readability and hero portrait. */
+#experience .card-text,
+#experience .card-text p,
+#experience .card-text li {
+  color: $hack-text !important;
+}
+
+.hero-portrait {
+  width: 280px;
+}
+
+.hero-portrait-frame {
+  position: relative;
+  padding: 0.45rem;
+  border: 1px solid rgba(103, 232, 249, 0.38);
+  background:
+    linear-gradient(135deg, rgba(77, 242, 167, 0.16), transparent 48%),
+    rgba(3, 8, 12, 0.78);
+  box-shadow:
+    0 0 0 1px rgba(77, 242, 167, 0.08),
+    0 1.5rem 4rem rgba(0, 0, 0, 0.38),
+    0 0 3rem rgba(103, 232, 249, 0.1);
+}
+
+.hero-portrait-frame::before,
+.hero-portrait-frame::after {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  content: "";
+  pointer-events: none;
+}
+
+.hero-portrait-frame::before {
+  top: -1px;
+  left: -1px;
+  border-top: 3px solid $hack-green;
+  border-left: 3px solid $hack-green;
+}
+
+.hero-portrait-frame::after {
+  right: -1px;
+  bottom: -1px;
+  border-right: 3px solid $hack-cyan;
+  border-bottom: 3px solid $hack-cyan;
+}
+
+.hero-portrait img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 0.1rem;
+  object-fit: cover;
+  filter: saturate(0.9) contrast(1.04);
+}
+
+.hero-portrait-caption {
+  display: grid;
+  margin-top: 0.8rem;
+  padding-left: 0.15rem;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  line-height: 1.45;
+  gap: 0.1rem;
+}
+
+.hero-portrait-status {
+  color: $hack-green;
+  font-size: 0.67rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.hero-portrait-caption strong {
+  color: $hack-text;
+  font-size: 0.92rem;
+}
+
+.hero-portrait-caption span:last-child {
+  color: $hack-muted;
+  font-size: 0.68rem;
+  letter-spacing: 0.025em;
+}
+
+@media (min-width: 992px) {
+  #hero .container {
+    padding-right: 360px;
+  }
+
+  .wg-hero .hero-title {
+    max-width: 760px;
+  }
+
+  .wg-hero .hero-lead {
+    max-width: 700px;
+  }
+
+  .hero-portrait {
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-43%);
+  }
+}
+
+@media (max-width: 991.98px) {
+  .hero-portrait {
+    position: relative;
+    width: min(240px, 78vw);
+    margin: 2rem auto 0.5rem;
+  }
+
+  .hero-portrait-caption {
+    text-align: left;
+  }
+}
