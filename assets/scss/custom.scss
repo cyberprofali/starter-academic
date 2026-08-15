@@ -712,3 +712,21 @@ textarea:focus-visible {
     scroll-behavior: auto;
   }
 }
+
+
+/* Legacy component collision fixes. */
+.terminal-bar code {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  color: $hack-muted;
+}
+
+@media (min-width: 992px) {
+  .navbar .navbar-nav .nav-link {
+    padding-right: 0.6rem !important;
+    padding-left: 0.6rem !important;
+    font-size: 0.84rem;
+  }
+}
