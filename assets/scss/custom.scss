@@ -71,7 +71,7 @@ $cyber-cyan: #62e6ff;
     transform 160ms ease;
 }
 
-.wg-hero .btn-primary {
+.wg-hero .btn-light {
   border-color: $cyber-teal;
   background-color: $cyber-teal;
   box-shadow:
@@ -80,8 +80,8 @@ $cyber-cyan: #62e6ff;
   color: $cyber-ink;
 }
 
-.wg-hero .btn-primary:hover,
-.wg-hero .btn-primary:focus {
+.wg-hero .btn-light:hover,
+.wg-hero .btn-light:focus {
   border-color: $cyber-cyan;
   background-color: $cyber-cyan;
   color: $cyber-ink;
