@@ -24,10 +24,10 @@ authors:
 #- "Equal contribution"
 
 date: "2020-12-25T00:00:00Z"
-doi: "https://doi.org/10.3390/universe7020021"
+doi: "10.3390/universe7020021"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-20-14T00:00:00Z"
+publishDate: "2020-12-25T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -54,7 +54,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://www.alihmd.com/publication/Curvature-Both/universe-07-00021-v2.pdf'
+url_pdf: '/publication/curvature-both/universe-07-00021-v2.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''

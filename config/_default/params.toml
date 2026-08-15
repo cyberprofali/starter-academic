@@ -48,7 +48,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Cybersecurity executive, vCISO, professor, and AI security researcher connecting business risk with technical security."
 
 ############################
 ## Site Features
@@ -89,15 +89,15 @@ show_related = {book = true, page = false, post = true, project = true, publicat
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "mdhaliev@gmail.com"
-phone = "+1 312.882.5544"
+phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "1515 W. 22nd Street Suite 200W", city = "Oak Brook", region = "IL", postcode = "60523", country = "United States", country_code = "US"}
+address = {street = "", city = "Chicago", region = "IL", postcode = "", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "41.8458982", longitude = "-87.9562334"}
+coordinates = {latitude = "", longitude = ""}
 
 # Directions for visitors to locate you.
 # directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
@@ -147,7 +147,7 @@ address_format = "en-us"
 ############################
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {align = "l", show_logo = true, highlight_active_link = true, show_language = false, show_day_night = true, show_search = true}
+main_menu = {align = "l", show_logo = true, highlight_active_link = true, show_language = false, show_day_night = false, show_search = true}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true
@@ -259,7 +259,7 @@ plugins_js  = []
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  engine = 2
+  engine = 0
   api_key = ""
   zoom = 15
 

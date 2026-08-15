@@ -5,12 +5,12 @@ headless: true
 
 weight: 40
 
-title: Experience
-subtitle:
+title: Executive & Technical Experience
+subtitle: Security leadership, consulting, research, and education
 
 date_format: Jan 2006
 show_more: true
-show_more_items: 4
+show_more_items: 5
 
 experience:
   - title: Virtual Chief Information Security Officer (vCISO)
@@ -20,7 +20,7 @@ experience:
     date_start: '2026-01-21'
     date_end: ''
     description: |
-      Provide executive-level cybersecurity leadership to organizations requiring strategic security guidance without full-time overhead. Responsibilities include cybersecurity strategy, governance, risk management, incident readiness, and executive advisory. Focused on aligning security programs with business objectives, regulatory requirements, and real-world threat models.
+      Advise organizations on cybersecurity strategy, governance, enterprise risk management, incident readiness, and executive decision-making. Translate business objectives, regulatory obligations, and real-world threat models into prioritized security programs that leaders can govern and teams can operate.
 
   - title: Professor & Program Coordinator (Cybersecurity)
     company: Olive-Harvey College
@@ -29,7 +29,7 @@ experience:
     date_start: '2024-08-01'
     date_end: ''
     description: |
-      Cybersecurity faculty member and program coordinator responsible for designing and delivering applied, industry-aligned cybersecurity curriculum. Teach courses in ethical hacking, penetration testing, and cybersecurity fundamentals, integrating hands-on labs and platforms such as Hack The Box Academy. Contribute to curriculum development and mentor students pursuing careers in cybersecurity.
+      Lead applied, industry-aligned cybersecurity curriculum and program coordination. Teach ethical hacking, penetration testing, and cybersecurity fundamentals through hands-on labs, including Hack The Box Academy, while mentoring students toward security careers and strengthening the talent pipeline.
 
   - title: Cybersecurity Consultant
     company: Burwood Group
@@ -38,7 +38,7 @@ experience:
     date_start: '2022-08-08'
     date_end: '2025-12-23'
     description: |
-      Delivered penetration testing and governance, risk, and compliance (GRC) services to clients across healthcare, education, and finance sectors. Conducted external, internal, and web application penetration tests, security risk assessments, and vulnerability analyses. Supported compliance initiatives aligned with NIST, HIPAA, and PCI frameworks.
+      Delivered offensive security and GRC engagements for clients across healthcare, education, and finance. Conducted external, internal, and web application penetration tests, security risk assessments, and vulnerability analyses, then translated findings into remediation priorities aligned with NIST, HIPAA, and PCI expectations.
 
   - title: Adjunct Professor
     company: Illinois Institute of Technology
@@ -47,7 +47,7 @@ experience:
     date_start: '2023-08-01'
     date_end: '2024-08-01'
     description: |
-      Designed and taught undergraduate and graduate computer science courses, focusing on programming, systems, and applied computing concepts. Provided academic mentorship and supported student research and technical development.
+      Designed and taught undergraduate and graduate computer science courses in programming, systems, and applied computing. Mentored students, supported research, and translated complex technical concepts into practical learning outcomes.
 
   - title: Adjunct Professor
     company: Saint Louis University
@@ -56,7 +56,7 @@ experience:
     date_start: '2024-01-01'
     date_end: '2024-05-01'
     description: |
-      Taught cybersecurity-focused courses within the Computer Information Systems curriculum for the School for Professional Studies. Instruction delivered fully online to a geographically diverse student population.
+      Taught cybersecurity courses in the Computer Information Systems curriculum for the School for Professional Studies, delivering rigorous online instruction to a geographically diverse student population.
 
   - title: Research Aide
     company: Argonne National Laboratory

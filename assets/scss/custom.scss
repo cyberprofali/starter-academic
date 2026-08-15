@@ -1,0 +1,215 @@
+// Recruiter-focused presentation enhancements.
+
+$cyber-ink: #06141f;
+$cyber-navy: #0b1f33;
+$cyber-teal: #20c9b6;
+$cyber-cyan: #62e6ff;
+
+.home-section.wg-hero {
+  position: relative;
+  overflow: hidden;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.home-section.wg-hero::before {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(98, 230, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(98, 230, 255, 0.08) 1px, transparent 1px);
+  background-size: 42px 42px;
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, transparent 92%);
+  mask-image: linear-gradient(to bottom, #000 0%, transparent 92%);
+  content: "";
+  pointer-events: none;
+}
+
+.home-section.wg-hero::after {
+  position: absolute;
+  top: -14rem;
+  right: -12rem;
+  width: 34rem;
+  height: 34rem;
+  border: 1px solid rgba(98, 230, 255, 0.2);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 4rem rgba(32, 201, 182, 0.04),
+    0 0 0 9rem rgba(98, 230, 255, 0.025);
+  content: "";
+  pointer-events: none;
+}
+
+.home-section.wg-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.wg-hero .hero-title {
+  max-width: 900px;
+  margin-bottom: 1.25rem;
+  font-size: clamp(2.6rem, 5vw, 4.5rem);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+}
+
+.wg-hero .hero-lead {
+  max-width: 800px;
+  font-size: 1.3rem;
+  line-height: 1.65;
+}
+
+.wg-hero .btn {
+  margin-top: 0.75rem;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+.wg-hero .btn-light {
+  border-color: $cyber-teal;
+  background-color: $cyber-teal;
+  box-shadow:
+    0 0 0 1px rgba(98, 230, 255, 0.2),
+    0 0.75rem 2rem rgba(0, 0, 0, 0.18);
+  color: $cyber-ink !important;
+}
+
+.wg-hero .btn-light:hover,
+.wg-hero .btn-light:focus {
+  border-color: $cyber-cyan;
+  background-color: $cyber-cyan;
+  color: $cyber-ink !important;
+  transform: translateY(-1px);
+}
+
+.wg-hero .hero-note {
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+}
+
+.executive-impact > [class*="col-"] {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.impact-card {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 1.75rem;
+  border-top: 4px solid $cyber-teal;
+  border-radius: 0.35rem;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 0.75rem 2rem rgba(11, 31, 51, 0.1);
+}
+
+.impact-card::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 54px;
+  height: 54px;
+  background: linear-gradient(135deg, transparent 49%, rgba(32, 201, 182, 0.14) 50%);
+  content: "";
+  pointer-events: none;
+}
+
+.impact-card h3 {
+  margin-top: 0;
+  color: $cyber-navy;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.impact-card h3::before {
+  margin-right: 0.5rem;
+  color: #137c75;
+  content: "//";
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+}
+
+.impact-card p {
+  margin-bottom: 0;
+  line-height: 1.65;
+}
+
+.impact-proof {
+  max-width: 980px;
+  margin: 0.5rem auto 0;
+  color: #304454;
+  text-align: center;
+}
+
+.home-section .section-heading h1::after {
+  display: block;
+  width: 3rem;
+  height: 3px;
+  margin-top: 0.6rem;
+  background: linear-gradient(90deg, $cyber-teal, $cyber-cyan);
+  content: "";
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(98, 230, 255, 0.18);
+  background-color: $cyber-navy !important;
+  box-shadow: 0 0.25rem 1.25rem rgba(11, 31, 51, 0.18);
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .active > .nav-link {
+  color: $cyber-cyan;
+}
+
+.navbar-light .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid $cyber-cyan;
+  outline-offset: 3px;
+}
+
+@media (max-width: 767.98px) {
+  .home-section.wg-hero {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .home-section.wg-hero::after {
+    top: -10rem;
+    right: -18rem;
+  }
+
+  .wg-hero .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .wg-hero .hero-lead {
+    font-size: 1.1rem;
+  }
+
+  .impact-proof {
+    text-align: left;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wg-hero .btn {
+    transition: none;
+  }
+}

@@ -23,7 +23,7 @@ authors:
 #- "Equal contribution"
 
 date: "2019-11-22T00:00:00Z"
-doi: "https://doi.org/10.3390/universe6010011"
+doi: "10.3390/universe6010011"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-01-09T00:00:00Z"
@@ -53,7 +53,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://www.alihmd.com/publication/Lorentzian-Traversable-Wormholes/universe-06-00011-v2.pdf'
+url_pdf: '/publication/lorentzian-traversable-wormholes/universe-06-00011-v2.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
