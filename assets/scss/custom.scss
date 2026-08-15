@@ -839,7 +839,8 @@ textarea:focus-visible {
 @media (max-width: 991.98px) {
   .hero-portrait {
     position: relative;
-    width: min(240px, 78vw);
+    width: 240px;
+    max-width: 78vw;
     margin: 2rem auto 0.5rem;
   }
 
