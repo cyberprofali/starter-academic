@@ -963,3 +963,207 @@ textarea:focus-visible {
 #about .article-style {
   line-height: 1.75;
 }
+
+
+/* Recruiter-first executive snapshot and scan-friendly experience grid. */
+#executive-snapshot {
+  background-color: #040b10 !important;
+}
+
+#executive-snapshot .section-heading h1::before {
+  content: "// executive_brief";
+}
+
+.snapshot-intro {
+  max-width: 980px;
+  margin: 0 auto 1.5rem;
+  color: $hack-text !important;
+  font-size: 1.08rem;
+  line-height: 1.75;
+  text-align: center;
+}
+
+.snapshot-rolebar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1120px;
+  margin: 0 auto 1.5rem;
+  padding: 0.8rem;
+  border: 1px solid rgba(77, 242, 167, 0.28);
+  background: rgba(77, 242, 167, 0.045);
+  gap: 0.55rem;
+}
+
+.snapshot-rolebar span,
+.snapshot-rolebar strong {
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+}
+
+.snapshot-rolebar span {
+  color: $hack-green;
+}
+
+.snapshot-rolebar strong {
+  padding: 0.34rem 0.52rem;
+  border: 1px solid rgba(103, 232, 249, 0.2);
+  background: rgba(103, 232, 249, 0.045);
+  color: $hack-text !important;
+  font-weight: 600;
+}
+
+.executive-snapshot-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  max-width: 1120px;
+  margin: 0 auto 1.1rem;
+  gap: 0.8rem;
+}
+
+.snapshot-card {
+  position: relative;
+  min-height: 250px;
+  padding: 1.35rem;
+  border: 1px solid rgba(103, 232, 249, 0.18);
+  border-top: 3px solid $hack-teal;
+  background: linear-gradient(145deg, rgba(12, 32, 42, 0.94), rgba(5, 16, 24, 0.96));
+  box-shadow: 0 1rem 2.4rem rgba(0, 0, 0, 0.2);
+}
+
+.snapshot-id {
+  display: block;
+  margin-bottom: 0.85rem;
+  color: $hack-green;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 0.67rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+}
+
+.snapshot-card h3 {
+  margin: 0 0 0.7rem;
+  color: $hack-text !important;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.snapshot-card p {
+  margin: 0;
+  color: $hack-muted !important;
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.snapshot-actions {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  max-width: 1120px;
+  margin: 0 auto;
+  gap: 0.55rem;
+}
+
+.snapshot-actions a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  padding: 0.65rem 0.55rem;
+  border: 1px solid rgba(103, 232, 249, 0.24);
+  background: rgba(103, 232, 249, 0.045);
+  color: $hack-cyan !important;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  gap: 0.4rem;
+}
+
+.snapshot-actions a:hover,
+.snapshot-actions a:focus {
+  border-color: $hack-green;
+  background: $hack-green;
+  color: $hack-black !important;
+  text-decoration: none;
+}
+
+#experience .container > .row > .section-heading {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+#experience .container > .row > .col-12.col-lg-8 {
+  display: grid;
+  flex: 0 0 100%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 100%;
+  gap: 1rem;
+}
+
+#experience .row.experience {
+  height: 100%;
+  margin: 0;
+}
+
+#experience .row.experience > .col-auto {
+  display: none !important;
+}
+
+#experience .row.experience > .col {
+  height: 100%;
+  padding: 0 !important;
+}
+
+#experience .card {
+  height: 100%;
+}
+
+#experience .card-body {
+  padding: 1.35rem;
+}
+
+#experience .row.experience:nth-child(-n+2) .card {
+  border-top: 3px solid $hack-green;
+}
+
+@media (max-width: 991.98px) {
+  .executive-snapshot-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .snapshot-actions {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  #experience .container > .row > .col-12.col-lg-8 {
+    grid-template-columns: 1fr;
+  }
+
+  #experience .row.experience {
+    height: auto;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .snapshot-intro {
+    text-align: left;
+  }
+
+  .snapshot-rolebar {
+    justify-content: flex-start;
+  }
+
+  .executive-snapshot-grid,
+  .snapshot-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .snapshot-card {
+    min-height: 0;
+  }
+}
