@@ -1,0 +1,60 @@
+name: Build site
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  hugo:
+    name: Hugo ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - ubuntu-22.04
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: Read pinned Hugo version
+        id: hugo
+        shell: bash
+        run: |
+          version="$(sed -n 's/^[[:space:]]*HUGO_VERSION = "\([^"]*\)".*/\1/p' netlify.toml | head -n 1)"
+          test -n "$version"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Install pinned Hugo Extended
+        shell: bash
+        env:
+          HUGO_VERSION: ${{ steps.hugo.outputs.version }}
+        run: |
+          archive="hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz"
+          curl --fail --location --silent --show-error \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${archive}" \
+            --output "${RUNNER_TEMP}/${archive}"
+          sudo tar -xzf "${RUNNER_TEMP}/${archive}" -C /usr/local/bin hugo
+          hugo version
+
+      - name: Download Hugo modules
+        run: go mod download
+
+      - name: Build production site
+        run: hugo --gc --minify --buildFuture --baseURL https://example.invalid/
