@@ -22,7 +22,7 @@ title = "Cybersecurity leadership with an adversary's mindset"
   label = "Download Résumé"
 
 [cta_note]
-  label = "EXECUTIVE SECURITY · vCISO · ENTERPRISE RISK · OFFENSIVE SECURITY · AI SECURITY"
+  label = "EXECUTIVE SECURITY · vCISO · CISSP · PNPT · ENTERPRISE RISK · OFFENSIVE SECURITY"
 +++
 
 I help executives decide where cyber risk matters, what to do next, and how to make the improvement stick—combining vCISO strategy, offensive-security experience, AI-security research, and workforce leadership.
@@ -33,7 +33,7 @@ I help executives decide where cyber risk matters, what to do next, and how to m
   </div>
   <div class="hero-portrait-caption">
     <span class="hero-portrait-status">IDENTITY VERIFIED // ACTIVE</span>
-    <strong>Md Ali, Ph.D.</strong>
+    <strong>Md Ali, Ph.D., CISSP</strong>
     <span class="hero-portrait-role">vCISO · Cybersecurity Executive · Professor</span>
     <nav class="hero-profile-links" aria-label="Professional profile links">
       <a href="mailto:mdhaliev@gmail.com" aria-label="Email Md Ali"><i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span></a>
