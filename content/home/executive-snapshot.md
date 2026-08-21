@@ -21,16 +21,23 @@ design:
   <strong>vCISO / Strategic Advisory</strong>
 </div>
 
+<div class="executive-proof-strip" aria-label="Verified leadership evidence">
+  <div><strong>10+</strong><span>Years spanning cybersecurity, research, and technical leadership</span></div>
+  <div><strong>15+</strong><span>Client organizations advised across a vCISO portfolio</span></div>
+  <div><strong>25+</strong><span>Security risk assessments performed annually in consulting</span></div>
+  <div><strong>CISSP · PNPT</strong><span>Governance leadership and offensive-security credentials</span></div>
+</div>
+
 <div class="executive-snapshot-grid">
   <article class="snapshot-card">
     <span class="snapshot-id">01 / CURRENT MANDATE</span>
     <h3>Executive security advisory</h3>
-    <p>Serve as a vCISO at DOT Security, connecting strategy, governance, enterprise risk, incident readiness, and executive decision-making.</p>
+    <p>Advise a portfolio of 15+ client organizations as a vCISO at DOT Security, translating cyber risk for CEOs, CFOs, CIOs, senior executives, and private equity stakeholders.</p>
   </article>
   <article class="snapshot-card">
     <span class="snapshot-id">02 / ENTERPRISE RANGE</span>
     <h3>Risk across regulated environments</h3>
-    <p>Delivered offensive-security and GRC work across healthcare, education, and finance, translating technical findings into defensible priorities.</p>
+    <p>Performed 25+ security risk assessments annually in consulting, mapping findings to NIST CSF, HIPAA, and PCI DSS across regulated environments.</p>
   </article>
   <article class="snapshot-card">
     <span class="snapshot-id">03 / TECHNICAL CREDIBILITY</span>
