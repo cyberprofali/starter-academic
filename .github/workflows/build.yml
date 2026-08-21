@@ -56,5 +56,10 @@ jobs:
       - name: Download Hugo modules
         run: go mod download
 
-      - name: Build production site
+      - name: Build deploy preview
+        if: github.event_name == 'pull_request'
         run: hugo --gc --minify --buildFuture --baseURL https://example.invalid/
+
+      - name: Build production site
+        if: github.event_name == 'push'
+        run: hugo --gc --minify --baseURL https://example.invalid/
