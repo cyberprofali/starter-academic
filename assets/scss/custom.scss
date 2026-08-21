@@ -1210,3 +1210,53 @@ textarea:focus-visible {
     text-align: left;
   }
 }
+
+
+/* Verified executive proof strip. */
+.executive-proof-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  max-width: 1120px;
+  margin: 0 auto 1.1rem;
+  border: 1px solid rgba(103, 232, 249, 0.18);
+  background: rgba(103, 232, 249, 0.18);
+  gap: 1px;
+}
+
+.executive-proof-strip > div {
+  padding: 1rem 0.85rem;
+  background: #07131b;
+  text-align: center;
+}
+
+.executive-proof-strip strong {
+  display: block;
+  color: $hack-green !important;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.executive-proof-strip span {
+  display: block;
+  margin-top: 0.4rem;
+  color: $hack-muted;
+  font-size: 0.74rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 991.98px) {
+  .executive-proof-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 575.98px) {
+  .executive-proof-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .executive-proof-strip > div {
+    text-align: left;
+  }
+}
