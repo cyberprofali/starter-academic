@@ -20,7 +20,7 @@ experience:
     date_start: '2026-01-21'
     date_end: ''
     description: |
-      Advise organizations on cybersecurity strategy, governance, enterprise risk management, incident readiness, and executive decision-making. Translate business objectives, regulatory obligations, and real-world threat models into prioritized security programs that leaders can govern and teams can operate.
+      Serve as executive cybersecurity advisor across a portfolio of 15+ client organizations spanning defense, healthcare, financial services, legal services, higher education, and government. Advise CEOs, CFOs, CIOs, senior executives, and private equity stakeholders on governance, enterprise risk, regulatory readiness, security investment, and prioritized multi-phase roadmaps.
 
   - title: Professor & Program Coordinator (Cybersecurity)
     company: Olive-Harvey College
@@ -38,7 +38,7 @@ experience:
     date_start: '2022-08-08'
     date_end: '2025-12-23'
     description: |
-      Delivered offensive security and GRC engagements for clients across healthcare, education, and finance. Conducted external, internal, and web application penetration tests, security risk assessments, and vulnerability analyses, then translated findings into remediation priorities aligned with NIST, HIPAA, and PCI expectations.
+      Led end-to-end offensive-security and GRC engagements across healthcare, higher education, and financial services, including 25+ security risk assessments annually. Conducted external, internal, and web application penetration tests, then translated findings into executive risk narratives and remediation priorities aligned with NIST CSF, HIPAA, and PCI DSS.
 
   - title: Adjunct Professor
     company: Illinois Institute of Technology

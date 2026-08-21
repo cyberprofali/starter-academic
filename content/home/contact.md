@@ -4,7 +4,7 @@ headless: true
 weight: 130
 
 title: Start a Conversation
-subtitle: Cybersecurity leadership, advisory, research, and education
+subtitle: Executive cybersecurity leadership, vCISO advisory, and strategic security partnerships
 
 content:
   autolink: true

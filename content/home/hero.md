@@ -12,20 +12,20 @@ title = "Cybersecurity leadership with an adversary's mindset"
   text_color_light = true
 
 [cta]
-  url = "#operating-model"
-  label = "Explore the Security System"
+  url = "#executive-snapshot"
+  label = "View Executive Snapshot"
   icon_pack = "fas"
-  icon = "terminal"
+  icon = "briefcase"
 
 [cta_alt]
   url = "media/resume.pdf"
   label = "Download Résumé"
 
 [cta_note]
-  label = "STATUS: ACTIVE · vCISO · OFFENSIVE SECURITY · AI SECURITY · PROGRAM LEADERSHIP"
+  label = "EXECUTIVE SECURITY · vCISO · CISSP · PNPT · ENTERPRISE RISK · OFFENSIVE SECURITY"
 +++
 
-I operate where executive risk decisions meet the attack surface—combining vCISO strategy, offensive-security experience, AI-security research, and hands-on education to turn uncertainty into prioritized, defensible action.
+I help executives decide where cyber risk matters, what to do next, and how to make the improvement stick—combining vCISO strategy, offensive-security experience, AI-security research, and workforce leadership.
 
 <div class="hero-portrait">
   <div class="hero-portrait-frame">
@@ -33,7 +33,7 @@ I operate where executive risk decisions meet the attack surface—combining vCI
   </div>
   <div class="hero-portrait-caption">
     <span class="hero-portrait-status">IDENTITY VERIFIED // ACTIVE</span>
-    <strong>Md Ali, Ph.D.</strong>
+    <strong>Md Ali, Ph.D., CISSP</strong>
     <span class="hero-portrait-role">vCISO · Cybersecurity Executive · Professor</span>
     <nav class="hero-profile-links" aria-label="Professional profile links">
       <a href="mailto:mdhaliev@gmail.com" aria-label="Email Md Ali"><i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span></a>
