@@ -6,17 +6,17 @@
   weight = 10
 
 [[main]]
-  name = "Leadership"
-  url = "#about"
-  weight = 20
+  name = "Snapshot"
+  url = "#executive-snapshot"
+  weight = 15
 
 [[main]]
-  name = "Executive Value"
+  name = "Impact"
   url = "#impact"
   weight = 30
 
 [[main]]
-  name = "Security System"
+  name = "Method"
   url = "#operating-model"
   weight = 35
 
