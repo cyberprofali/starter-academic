@@ -1167,3 +1167,46 @@ textarea:focus-visible {
     min-height: 0;
   }
 }
+
+
+/* Snapshot alignment refinements from responsive QA. */
+#executive-snapshot .section-heading h1::after {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.snapshot-rolebar {
+  display: grid;
+  grid-template-columns: auto repeat(4, minmax(0, 1fr));
+}
+
+.snapshot-rolebar span,
+.snapshot-rolebar strong {
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+  .snapshot-rolebar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .snapshot-rolebar > span {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .snapshot-rolebar {
+    grid-template-columns: 1fr;
+  }
+
+  .snapshot-rolebar > span {
+    grid-column: auto;
+    text-align: left;
+  }
+
+  .snapshot-rolebar strong {
+    width: 100%;
+    text-align: left;
+  }
+}
