@@ -31,22 +31,22 @@ design:
 <div class="executive-snapshot-grid">
   <article class="snapshot-card">
     <span class="snapshot-id">01 / CURRENT MANDATE</span>
-    <h3>Executive security advisory</h3>
+    <h2>Executive security advisory</h2>
     <p>Advise a portfolio of 15+ client organizations as a vCISO at DOT Security, translating cyber risk for CEOs, CFOs, CIOs, senior executives, and private equity stakeholders.</p>
   </article>
   <article class="snapshot-card">
     <span class="snapshot-id">02 / ENTERPRISE RANGE</span>
-    <h3>Risk across regulated environments</h3>
+    <h2>Risk across regulated environments</h2>
     <p>Performed 25+ security risk assessments annually in consulting, mapping findings to NIST CSF, HIPAA, and PCI DSS across regulated environments.</p>
   </article>
   <article class="snapshot-card">
     <span class="snapshot-id">03 / TECHNICAL CREDIBILITY</span>
-    <h3>Research and adversary depth</h3>
+    <h2>Research and adversary depth</h2>
     <p>Combine penetration-testing experience with Ph.D.-level AI and cybersecurity research, distributed systems, and national-laboratory computing.</p>
   </article>
   <article class="snapshot-card">
     <span class="snapshot-id">04 / TALENT MULTIPLIER</span>
-    <h3>Programs people can operate</h3>
+    <h2>Programs people can operate</h2>
     <p>Lead cybersecurity curriculum and program coordination while mentoring practitioners through applied ethical-hacking and security labs.</p>
   </article>
 </div>
