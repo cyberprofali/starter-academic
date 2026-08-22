@@ -1260,3 +1260,51 @@ textarea:focus-visible {
     text-align: left;
   }
 }
+
+
+/* Scan-friendly recognition and professional leadership grid. */
+#awards .container > .row > .section-heading {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+#awards .container > .row > .col-12.col-lg-8 {
+  display: grid;
+  flex: 0 0 100%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 100%;
+  gap: 1rem;
+}
+
+#awards .card {
+  height: 100%;
+  margin: 0;
+  border-left: 3px solid $hack-teal;
+}
+
+#awards .card-body {
+  padding: 1.25rem;
+}
+
+#awards .card-title {
+  color: $hack-text !important;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+#awards .card .article-style {
+  margin-top: 0.75rem;
+}
+
+#awards .card .article-style p {
+  margin-bottom: 0;
+  color: $hack-muted !important;
+  line-height: 1.6;
+}
+
+@media (max-width: 767.98px) {
+  #awards .container > .row > .col-12.col-lg-8 {
+    grid-template-columns: 1fr;
+  }
+}
