@@ -19,7 +19,7 @@ item:
   - organization: Trace Labs
     organization_url: https://tracelabs.org/
     title: Global OSINT Search Party CTF Judge
-    url: https://docs.tracelabs.org/searchparty/searchparty-coach-guide
+    url: ''
     certificate_url: ''
     date_start: '2022-01-01'
     date_end: ''
