@@ -31,7 +31,7 @@ item:
     certificate_url: ''
     date_start: '2024-01-01'
     date_end: ''
-    description: Presented “Navigating the Shadows: Unraveling the Depths of the Internet, Dark Web, and Tor Network in the Realm of Cybersecurity” at the 2024 SnowFroc conference.
+    description: 'Presented “Navigating the Shadows: Unraveling the Depths of the Internet, Dark Web, and Tor Network in the Realm of Cybersecurity” at the 2024 SnowFroc conference.'
   - organization: Corporate Strategy Podcast
     organization_url: https://podcast.corporatestrategy.biz/
     title: Guest Speaker — “Offensive Cybersecurity”
