@@ -47,7 +47,7 @@ social:
   link: mailto:mdhaliev@gmail.com
 - icon: researchgate
   icon_pack: ai
-  link: https://www.researchgate.net/profile/Md_Ali222
+  link: https://www.researchgate.net/profile/Md-Ali-178
 - icon: github
   icon_pack: fab
   link: https://github.com/cyberprofali

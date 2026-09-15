@@ -11,7 +11,7 @@ Keep [alihmd.com](https://alihmd.com) accurate, professional, accessible, fast, 
 - [x] Add a pull-request template.
 - [x] Add a reproducible build check that uses the site's pinned Hugo version.
 - [x] Audit and remove starter content, editor artifacts, and unused files without deleting personal material.
-- [ ] Check biography, navigation, contact methods, projects, publications, and resume links for accuracy.
+- [x] Check biography, navigation, contact methods, projects, publications, and resume links for accuracy.
 - [ ] Establish a visual baseline with desktop and mobile screenshots.
 - [ ] Improve accessibility, mobile layout, metadata, and performance based on the baseline.
 - [ ] Plan the legacy Hugo and Wowchemy upgrade as a separate migration with preview and rollback steps.
