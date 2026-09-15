@@ -26,20 +26,28 @@ item:
     description: Serving as a judge since 2022, reviewing OSINT submissions during global Search Party CTF events.
   - organization: OWASP SnowFroc Colorado
     organization_url: https://www.snowfroc.com/
-    title: Cybersecurity Conference Speaker
+    title: Conference Speaker — “Navigating the Shadows”
     url: ''
     certificate_url: ''
     date_start: '2024-01-01'
     date_end: ''
-    description: Selected to speak at the 2024 SnowFroc cybersecurity conference in Colorado.
+    description: Presented “Navigating the Shadows: Unraveling the Depths of the Internet, Dark Web, and Tor Network in the Realm of Cybersecurity” at the 2024 SnowFroc conference.
   - organization: Corporate Strategy Podcast
     organization_url: https://podcast.corporatestrategy.biz/
-    title: Guest Speaker — “Ethical Hacking”
+    title: Guest Speaker — “Offensive Cybersecurity”
     url: ''
     certificate_url: ''
     date_start: '2024-01-01'
     date_end: ''
-    description: Invited guest for a 2024 conversation on ethical hacking and corporate strategy.
+    description: Invited guest for a 2024 conversation on offensive cybersecurity and corporate strategy.
+  - organization: The University of Texas at Dallas
+    organization_url: https://www.utdallas.edu/
+    title: Guest Lecturer — “Ethical Hacking”
+    url: ''
+    certificate_url: ''
+    date_start: '2021-01-01'
+    date_end: ''
+    description: Invited to deliver a guest lecture on ethical hacking in 2021.
   - organization: Texas State University
     organization_url: https://www.txst.edu/physics/
     title: Mathematics Excellence Award
@@ -48,6 +56,14 @@ item:
     date_start: '2019-05-01'
     date_end: ''
     description: Recognized for excellence in mathematics.
+  - organization: Sigma Pi Sigma
+    organization_url: https://www.sigmapisigma.org/
+    title: Physics National Achievement Award
+    url: ''
+    certificate_url: ''
+    date_start: '2019-05-01'
+    date_end: ''
+    description: Received the national physics honor society’s achievement award in 2019.
   - organization: Sigma Pi Sigma
     organization_url: https://www.sigmapisigma.org/
     title: Physics Honor Society Member

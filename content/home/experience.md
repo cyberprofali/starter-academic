@@ -14,8 +14,8 @@ show_more_items: 5
 
 experience:
   - title: Virtual Chief Information Security Officer (vCISO)
-    company: Dot Security
-    company_url: https://www.dotsecurity.com
+    company: DOT Security
+    company_url: https://dotsecurity.com/
     location: Chicago, Illinois
     date_start: '2026-01-21'
     date_end: ''

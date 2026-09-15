@@ -39,7 +39,7 @@ I help executives decide where cyber risk matters, what to do next, and how to m
       <a href="mailto:mdhaliev@gmail.com" aria-label="Email Md Ali"><i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span></a>
       <a href="https://www.linkedin.com/in/md-aliev/" target="_blank" rel="noopener" aria-label="Md Ali on LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span>LinkedIn</span></a>
       <a href="https://github.com/cyberprofali" target="_blank" rel="noopener" aria-label="Md Ali on GitHub"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
-      <a href="https://www.researchgate.net/profile/Md_Ali222" target="_blank" rel="noopener" aria-label="Md Ali on ResearchGate"><i class="ai ai-researchgate" aria-hidden="true"></i><span>ResearchGate</span></a>
+      <a href="https://www.researchgate.net/profile/Md-Ali-178" target="_blank" rel="noopener" aria-label="Md Ali on ResearchGate"><i class="ai ai-researchgate" aria-hidden="true"></i><span>ResearchGate</span></a>
       <a href="https://dotsecurity.com/" target="_blank" rel="noopener" aria-label="DOT Security"><i class="fas fa-shield-alt" aria-hidden="true"></i><span>DOT Security</span></a>
       <a href="/media/resume.pdf" aria-label="Download Md Ali's résumé"><i class="fas fa-file-alt" aria-hidden="true"></i><span>Résumé</span></a>
     </nav>
